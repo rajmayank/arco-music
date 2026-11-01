@@ -1,0 +1,8 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {INSTRUMENTS,midiToFrequency,frequencyToNote,noteName,getFingering,EXERCISES,getSequence} from '../web/js/music.js';
+import {renderFingerboard,renderStaff} from '../web/js/visuals.js';
+test('A440 and octaves map correctly',()=>{assert.equal(midiToFrequency(69),440);assert.equal(midiToFrequency(57),220);assert.equal(frequencyToNote(440).label,'A4');assert.equal(noteName(66),'F♯4');assert.ok(Math.abs(frequencyToNote(442).cents-7.85)<.1);assert.equal(frequencyToNote(0),null);});
+test('standard strings and first-position fingerings',()=>{assert.deepEqual(INSTRUMENTS.violin.strings.map(s=>s.midi),[55,62,69,76]);assert.equal(getFingering(62).finger,0);assert.equal(getFingering(64).finger,1);assert.equal(getFingering(66).finger,2);assert.equal(getFingering(62,'violin',0).finger,4);assert.equal(getFingering(52,'cello').finger,1);assert.equal(getFingering(55,'cello').finger,4);assert.equal(getFingering(20),null);});
+test('every exercise is playable within supported finger positions',()=>{for(const instrument of Object.keys(INSTRUMENTS)){for(const exercise of EXERCISES.filter(e=>e.id!=='custom')){const notes=getSequence(exercise.id,instrument);assert.ok(notes.length>0);for(const note of notes)assert.ok(getFingering(note,instrument),`${instrument} ${exercise.id} ${noteName(note)}`);}}});
+test('scales return to tonic and renders include accessible notation',()=>{const notes=getSequence('d-major');assert.equal(notes[0],62);assert.equal(notes.at(-1),62);assert.equal(notes.length,15);assert.match(renderFingerboard({targetMidi:66}),/F♯4/);assert.match(renderStaff({notes,activeIndex:2}),/treble clef/);assert.match(renderStaff({notes:[36],instrument:'cello'}),/bass clef/);});

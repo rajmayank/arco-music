@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<title>Arco. Learn violin, one note at a time.</title>
+<desc>A beginner violin practice space with an amber A4 target, a faded teal A5 showing the player's live sound, ledger lines, and a down arrow guiding it toward the target. Below, a realistic fingerboard highlights the open A string. Works in your browser and keeps audio on your device.</desc>
+<defs>
+  <linearGradient id="page" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F8F6EE"/><stop offset="1" stop-color="#E9EEE2"/></linearGradient>
+  <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F6EFDF"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+  <filter id="shadow" x="-15%" y="-15%" width="130%" height="145%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#263F34" flood-opacity=".09"/></filter>
+</defs>
+<rect width="1200" height="630" fill="url(#page)"/>
+<circle cx="1100" cy="35" r="290" fill="#E3EADD" opacity=".65"/>
+<path d="M0 594C260 495 418 692 690 584" fill="none" stroke="#DDE5D6" stroke-width="1.5"/>
+<svg x="58" y="49" width="48" height="48" viewBox="8 10 48 48" fill="none">
+  <title>Arco bridge</title>
+  <path fill="#294B3D" d="M17 20Q32 13 47 20L48 28C43 28 42 30 43 33S47 37 50 36L54 51H40L38 42C37 38 27 38 26 42L24 51H10L14 36C17 37 20 36 21 33S21 28 16 28L17 20Z"/>
+</svg>
+
+<g font-family="Arial, Helvetica, sans-serif" fill="#294B3D">
+  <text x="119" y="84" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="37" font-weight="500" letter-spacing="-1.4">arco</text>
+  <text x="60" y="150" font-size="12" font-weight="600" letter-spacing="2.2" fill="#687D68">YOUR FIRST NOTES START HERE</text>
+  <text x="56" y="220" font-size="58" font-weight="500" letter-spacing="-2.6">One note.</text>
+  <text x="56" y="284" font-size="58" font-weight="500" letter-spacing="-2.6">A little closer.</text>
+  <text x="60" y="327" font-size="20" fill="#6C7D68">Learn violin, one note at a time.</text>
+  <g font-size="16" fill="#61725F">
+    <circle cx="67" cy="382" r="7" fill="#C49145"/>
+    <text x="87" y="387">See the note to aim for.</text>
+    <circle cx="67" cy="420" r="7" fill="#4C9385" fill-opacity=".35" stroke="#4C9385" stroke-width="1.5"/>
+    <text x="87" y="425">See the note you're playing.</text>
+    <path d="m61 457 4 4 8-10" fill="none" stroke="#6F8B65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="87" y="463">Find your way, then move on.</text>
+  </g>
+  <rect x="58" y="504" width="180" height="38" rx="19" fill="#294B3D"/>
+  <text x="148" y="529" text-anchor="middle" font-size="13" font-weight="600" fill="#F8F6EF">Made for beginners</text>
+</g>
+<rect x="496" y="57" width="648" height="507" rx="24" fill="#D8E0D1" opacity=".28"/><rect x="496" y="49" width="648" height="507" rx="24" fill="#FFFEFA" stroke="#DCE3D6"/>
+<g font-family="Arial, Helvetica, sans-serif">
+  <text x="529" y="91" font-size="12" font-weight="600" letter-spacing="1.5" fill="#71836D">LIVE VIOLIN PRACTICE</text>
+  <circle cx="1023" cy="86" r="4" fill="#6E9D73"/>
+  <text x="1034" y="90" font-size="11" fill="#75876F">Listening</text>
+  <text x="529" y="129" font-size="25" font-weight="600" fill="#294B3D" letter-spacing="-.6">See what you're playing.</text>
+  <text x="529" y="153" font-size="13" fill="#829078">Your sound belongs on the staff.</text>
+</g>
+<rect x="688" y="176" width="132" height="170" rx="17" fill="#F6ECD8"/>
+<g stroke="#CAD2C1" stroke-width="1.2">
+  <path d="M536 239H1108M536 259H1108M536 279H1108M536 299H1108M536 319H1108"/>
+</g>
+<text x="546" y="317" font-family="Apple Symbols, Noto Music, serif" font-size="111" fill="#496149">𝄞</text>
+<g fill="#C08A3E" stroke="#C08A3E">
+  <ellipse cx="728" cy="289" rx="12" ry="8" transform="rotate(-20 728 289)" stroke="none"/>
+  <path d="M738 288V244" stroke-width="2.6"/>
+</g>
+<g fill="#468D80" stroke="#468D80">
+  <path d="M764 219h45" stroke-width="1.6" opacity=".4"/>
+  <ellipse cx="786" cy="219" rx="14" ry="9" transform="rotate(-20 786 219)" fill="#D2E5DD" stroke="#6DA99A" stroke-width="2"/>
+  <path d="M775 220v45" stroke-width="2.4" opacity=".48"/>
+  <path d="M838 221v55m-5-6 5 6 5-6" fill="none" stroke-width="2" opacity=".7" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g stroke="#526A51" fill="#526A51" opacity=".45">
+  <ellipse cx="906" cy="279" rx="11" ry="7.5" stroke="none" transform="rotate(-20 906 279)"/><path d="M897 280v43" stroke-width="2.3"/>
+  <ellipse cx="989" cy="269" rx="11" ry="7.5" stroke="none" transform="rotate(-20 989 269)"/><path d="M980 270v43" stroke-width="2.3"/>
+  <ellipse cx="1072" cy="259" rx="11" ry="7.5" stroke="none" transform="rotate(-20 1072 259)"/><path d="M1063 260v43" stroke-width="2.3"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="12">
+  <text x="728" y="337" fill="#A27331" font-weight="600" text-anchor="middle">A4</text>
+  <text x="781" y="199" fill="#4D8678" font-weight="600" text-anchor="middle">YOU · A5</text>
+  <text x="906" y="339" fill="#84917B" text-anchor="middle">B4</text>
+  <text x="989" y="339" fill="#84917B" text-anchor="middle">C5</text>
+  <text x="1072" y="339" fill="#84917B" text-anchor="middle">D5</text>
+</g>
+<rect x="529" y="360" width="582" height="36" rx="9" fill="#EDF3EC"/>
+<path d="M548 370v15m-4-4 4 4 4-4" fill="none" stroke="#508477" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="564" y="383" fill="#507566" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="500">Bring your sound down to the amber note.</text>
+<svg x="532" y="395" width="575" height="150" class="fingerboard-svg" viewBox="0 0 900 264" role="img" aria-label="Violin fingerboard. A4, A string, Open string. Finger positions are a guide; listen for accurate pitch." xmlns="http://www.w3.org/2000/svg"><title>Violin fingerboard. A4, A string, Open string. Finger positions are a guide; listen for accurate pitch.</title><defs><linearGradient id="arco-wood" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ac7845"/><stop offset=".18" stop-color="#754723"/><stop offset=".48" stop-color="#ba8352"/><stop offset=".82" stop-color="#79502f"/><stop offset="1" stop-color="#51331c"/></linearGradient><linearGradient id="arco-ebony" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#41413a"/><stop offset=".16" stop-color="#242823"/><stop offset=".55" stop-color="#171b18"/><stop offset=".9" stop-color="#292d26"/><stop offset="1" stop-color="#414337"/></linearGradient><linearGradient id="arco-metal" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e1dcc6"/><stop offset=".45" stop-color="#b3b5aa"/><stop offset=".55" stop-color="#fff7df"/><stop offset="1" stop-color="#82877b"/></linearGradient><filter id="arco-shadow" x="-10%" y="-20%" width="120%" height="150%"><feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#3c3e30" flood-opacity=".2"/></filter></defs><g filter="url(#arco-shadow)"><path d="M100 51 Q93 127 100 204 L856 224 Q880 125 856 29 Z" fill="url(#arco-wood)"/><path d="M102 61 Q107 127 102 194 L853 212" fill="none" stroke="#c79b66" opacity=".42" stroke-width="2"/><path d="M185 51 L853 34 Q866 127 853 219 L185 204 Z" fill="url(#arco-ebony)" stroke="#484a3f" stroke-width="1.3"/><path d="M196 59 L850 43 M194 197 L850 210" fill="none" stroke="#777c69" opacity=".2"/><path d="M182 50 L190 51 L190 205 L182 204 Z" fill="#c4bb9b"/><path d="M183 51 L186 51 L186 204 L183 204 Z" fill="#eee2ba"/><path d="M113 62 L171 60 L171 195 L113 192 Z" fill="#372a1c" stroke="#b28a5c" stroke-width="2"/><path d="M120 67 L162 65 L162 190 L120 188 Z" fill="#1c211b"/><path d="M115 86 H170 M115 166 H170" stroke="#746e58" stroke-width="5"/><ellipse cx="133" cy="39" rx="21" ry="9" fill="#383a2f"/><ellipse cx="157" cy="215" rx="21" ry="9" fill="#383a2f"/><path d="M132 42 V77 M157 180 V211" stroke="#4b4b3b" stroke-width="8"/></g><g><text x="18" y="195" font-size="15" fill="#5b645b" font-family="system-ui" font-weight="500">G<tspan font-size="10" dy="3">3</tspan></text><circle cx="61" cy="190" r="12" fill="#e6e6dc"/><text x="61" y="194" text-anchor="middle" font-size="10" font-family="system-ui" fill="#536054">4</text><path d="M115 190 L858 190" stroke="#000" opacity=".45" stroke-width="5" transform="translate(0 2)"/><path d="M115 190 L858 190" stroke="#b9b8aa" stroke-width="3.2"/></g><g><text x="18" y="153" font-size="15" fill="#5b645b" font-family="system-ui" font-weight="500">D<tspan font-size="10" dy="3">4</tspan></text><circle cx="61" cy="148" r="12" fill="#e6e6dc"/><text x="61" y="152" text-anchor="middle" font-size="10" font-family="system-ui" fill="#536054">3</text><path d="M115 148 L858 148" stroke="#000" opacity=".45" stroke-width="4.35" transform="translate(0 2)"/><path d="M115 148 L858 148" stroke="#b9b8aa" stroke-width="2.6"/></g><g><text x="18" y="111" font-size="15" fill="#ab7028" font-family="system-ui" font-weight="700">A<tspan font-size="10" dy="3">4</tspan></text><circle cx="61" cy="106" r="15" fill="#f0dcb5"/><text x="61" y="110" text-anchor="middle" font-size="10" font-family="system-ui" fill="#536054">2</text><path d="M115 106 L858 106" stroke="#000" opacity=".45" stroke-width="3.7" transform="translate(0 2)"/><path d="M115 106 L858 106" stroke="#b9b8aa" stroke-width="2"/><path d="M185 106 L850 106" stroke="#e4b664" stroke-width="1.8" opacity=".8"/><circle cx="158" cy="106" r="22" fill="#d99a43" opacity=".16"/><circle cx="158" cy="106" r="15" fill="#e6b15f" stroke="#fae6bd" stroke-width="2"/><text x="158" y="111" font-family="system-ui" font-size="13" font-weight="700" text-anchor="middle" fill="#342618">0</text></g><g><text x="18" y="69" font-size="15" fill="#5b645b" font-family="system-ui" font-weight="500">E<tspan font-size="10" dy="3">5</tspan></text><circle cx="61" cy="64" r="12" fill="#e6e6dc"/><text x="61" y="68" text-anchor="middle" font-size="10" font-family="system-ui" fill="#536054">1</text><path d="M115 64 L858 64" stroke="#000" opacity=".45" stroke-width="3.05" transform="translate(0 2)"/><path d="M115 64 L858 64" stroke="#b9b8aa" stroke-width="1.4000000000000004"/></g><circle cx="256.2796228942492" cy="222" r="2" fill="#b8b9af"/><circle cx="323.55862796176916" cy="222" r="2" fill="#b8b9af"/><circle cx="387.0615526277826" cy="222" r="2" fill="#b8b9af"/><circle cx="447.0003320001933" cy="222" r="2" fill="#b8b9af"/><circle cx="503.5750061833072" cy="222" r="2" fill="#b8b9af"/><circle cx="556.9743878930847" cy="222" r="2" fill="#b8b9af"/><circle cx="607.3766926020282" cy="222" r="2" fill="#b8b9af"/><text x="158" y="244" text-anchor="middle" fill="#72776e" font-family="system-ui" font-size="14">open</text></svg>
+<g font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#6F8268">
+  <path d="M62 586v-8c0-7 12-7 12 0v8m-14-3h16v13H60z" fill="none" stroke="#6F8268" stroke-width="1.7" stroke-linejoin="round"/>
+  <text x="88" y="593">Your audio stays on your device.</text>
+  <circle cx="820" cy="588" r="2.5" fill="#9FAB96"/>
+  <text x="838" y="593">Tune. Play. Build confidence.</text>
+</g>
+</svg>

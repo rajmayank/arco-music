@@ -1,0 +1,16 @@
+{
+  "name": "arco-music-tutor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A private, frontend-only string instrument practice studio.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs dist",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check web/js/app.js && node --check web/js/audio.js && node --check web/js/music.js && node --check web/js/visuals.js && node --check web/js/session.js && node --check web/js/theme.js"
+  },
+  "engines": {"node": ">=20"}
+}

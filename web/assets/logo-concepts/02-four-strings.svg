@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>Arco: Four strings</title>
+  <path d="M20 12v40m8-40v40m8-40v40m8-40v40" stroke="currentColor" stroke-width="2.25"/>
+  <path d="M10 47c15-6 30-17 44-30" stroke="currentColor" stroke-width="3.25"/>
+</svg>

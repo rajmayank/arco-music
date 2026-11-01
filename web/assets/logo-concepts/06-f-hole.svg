@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>Arco sound hole</title>
+  <path fill="currentColor" d="M40 7C48 7 50 13 45 17C42 19 39 16 41 13C42 11 40 10 38 13C34 19 34 27 32 36C30 45 27 55 19 57C12 59 9 53 13 49C17 45 23 49 20 52C18 54 20 55 23 52C27 47 27 38 29 29C31 18 32 8 40 7Z"/>
+  <path d="M25 32H38" stroke="currentColor" stroke-width="2.6" stroke-linecap="square"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>Arco: The bow</title>
+  <path d="M15 52C12 31 27 12 49 12" stroke="currentColor" stroke-width="3.5"/>
+  <path d="m15 52 34-40" stroke="currentColor" stroke-width="1.75"/>
+  <path d="m12 48 6 5" stroke="currentColor" stroke-width="4"/>
+</svg>
