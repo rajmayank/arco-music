@@ -4,7 +4,7 @@
 
 **See your sound. Find your pitch. Make every practice count.**
 
-[Try Arco](https://rajmayank.github.io/arco-music/)
+[Try Arco](https://arco.apps.mayankraj.com/)
 
 Arco is a music practice studio in your browser. Play a note, see it appear on the staff, and follow a small challenge at your own pace. Live feedback, guided exercises, and a calm interface help turn repetition into progress.
 
@@ -59,7 +59,7 @@ Opening settings, switching sections, hiding the tab, or playing a reference ton
 
 ## Self-host
 
-The [GitHub Pages site](https://rajmayank.github.io/arco-music/) deploys automatically after changes to `main` pass the `check` job. Pull requests run the same tests, JavaScript checks, and build without publishing. The workflow uploads only `dist/` and uses GitHub's Pages deployment credentials.
+The [GitHub Pages site](https://arco.apps.mayankraj.com/) deploys automatically after changes to `main` pass the `check` job. Pull requests run the same tests, JavaScript checks, and build without publishing. The workflow uploads only `dist/` and uses GitHub's Pages deployment credentials.
 
 ```sh
 npm test
